@@ -1,53 +1,81 @@
-# Customer Churn Prediction Using Random Forest Classification
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-Random%20Forest-orange)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458)
+![NumPy](https://img.shields.io/badge/NumPy-Scientific%20Computing-013243)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 
-## Predictive Analytics for Customer Retention
+# 📉 Customer Churn Prediction Using Random Forest Classification
 
-A machine learning project focused on predicting customer churn in a telecommunications environment. The objective was to identify customers at risk of leaving the company and develop a predictive model capable of supporting proactive customer retention strategies.
+## Random Forest Classification for Customer Churn Prediction
 
-The project applies supervised machine learning techniques using Random Forest Classification to classify customers as likely to churn or remain with the company.
+A machine learning project focused on predicting customer churn in a telecommunications environment. A machine learning project focused on predicting customer churn in a telecommunications environment. The objective was to identify customers at risk of discontinuing service and develop a predictive model capable of supporting proactive customer retention strategies.
 
----
-
-## Project Overview
-
-Customer retention is a critical business challenge because acquiring new customers is often significantly more expensive than retaining existing customers.
-
-This project analyzes customer demographic, account, service, and billing information to identify patterns associated with customer churn and develop a predictive model capable of supporting data-driven retention initiatives.
+The project applies **Random Forest Classification** to classify customers as likely to churn or remain with the company using demographic, service, billing, and account characteristics.
 
 ---
 
-## Business Question
+# Project Overview
 
-Can customer demographic, service usage, and account characteristics be used to accurately predict whether a customer will discontinue service?
+Customer retention is one of the most important business challenges because acquiring new customers is typically far more expensive than retaining existing ones.
+
+This project develops a supervised machine learning model capable of identifying customers with an elevated risk of churn, enabling organizations to proactively target retention efforts and improve customer lifetime value.
 
 ---
 
-## Technologies Used
+# Business Question
 
-### Programming Languages
+**Can customer demographic, service usage, and account characteristics be used to accurately predict customer churn?**
 
+---
+
+# 🎥 Project Walkthrough
+
+A complete walkthrough of the project is available on Vimeo. The presentation explains the business problem, data preparation, Random Forest model development, evaluation metrics, and business implications of the predictive model.
+
+▶️ **Watch the Project Presentation**
+
+https://vimeo.com/1205145142
+
+---
+
+# Skills Demonstrated
+
+- Predictive Modeling
+- Random Forest Classification
+- Supervised Machine Learning
+- Feature Engineering
+- Data Preparation
+- Hyperparameter Optimization
+- Model Evaluation
+- Customer Analytics
+- Business Intelligence
 - Python
 
-### Data Science & Machine Learning
+---
 
+# Technologies
+
+- Python
 - Pandas
 - NumPy
 - Scikit-learn
-- Random Forest Classification
-
-### Data Visualization & Reporting
-
 - Jupyter Notebook
 - HTML Reporting
-
-### Version Control
-
 - Git
 - GitHub
 
 ---
 
-## Project Architecture
+# Model Type
+
+- **Algorithm:** Random Forest Classification
+- **Learning Type:** Supervised Machine Learning
+- **Prediction Task:** Binary Classification
+- **Target Variable:** Customer Churn (Yes/No)
+
+---
+
+# Repository Structure
 
 ```text
 .
@@ -67,9 +95,9 @@ Can customer demographic, service usage, and account characteristics be used to 
 
 ---
 
-## Data Preparation
+# Data Preparation
 
-The project includes:
+The data preparation process included:
 
 - Data cleaning and preprocessing
 - Feature selection
@@ -80,34 +108,45 @@ The project includes:
 
 ---
 
-## Machine Learning Approach
+# Machine Learning Approach
 
 A Random Forest Classification model was developed and optimized to classify customers into two categories:
 
 - Churn
 - No Churn
 
-The model was evaluated using multiple classification metrics to assess predictive effectiveness and generalization performance.
+The model was evaluated using accuracy, precision, recall, F1 score, and AUC-ROC to assess predictive performance and generalization on unseen customer data.
 
 ---
 
-## Results
-
-The optimized Random Forest model achieved:
+# Model Performance
 
 | Metric | Value |
-|----------|----------|
-| Accuracy | 88.3% |
-| Precision | 83% |
-| Recall | 73% |
-| F1 Score | 78% |
-| AUC-ROC | 0.947 |
+|---------|------:|
+| Accuracy | **88.3%** |
+| Precision | **83%** |
+| Recall | **73%** |
+| F1 Score | **78%** |
+| AUC-ROC | **0.947** |
 
-The results demonstrate strong predictive performance and a high ability to distinguish between customers likely to churn and customers likely to remain.
+The optimized Random Forest model demonstrated strong predictive performance and effectively distinguished customers likely to churn from those likely to remain.
 
 ---
 
-## Key Features
+# Key Findings
+
+The Random Forest model successfully identified meaningful patterns associated with customer churn using demographic, billing, and service-related variables.
+
+The model demonstrated:
+
+- High overall classification accuracy
+- Strong discrimination capability (AUC = 0.947)
+- Effective balance between precision and recall
+- Good generalization to unseen customer data
+
+---
+
+# Key Features
 
 - Customer churn prediction
 - Random Forest Classification
@@ -120,25 +159,25 @@ The results demonstrate strong predictive performance and a high ability to dist
 
 ---
 
-## Machine Learning Workflow
+# Machine Learning Workflow
 
 1. Acquire customer data
 2. Clean and prepare records
 3. Engineer predictive features
 4. Split data into training, validation, and testing datasets
 5. Train Random Forest model
-6. Optimize model hyperparameters
+6. Optimize Optimize Random Forest hyperparameters
 7. Evaluate classification performance
 8. Generate business insights
 
 ---
 
-## Business Value
+# Business Value
 
-Organizations can use churn prediction models to:
+Organizations can use predictive churn models to:
 
 - Identify high-risk customers
-- Improve retention strategies
+- Improve customer retention strategies
 - Reduce customer attrition
 - Prioritize retention resources
 - Improve customer lifetime value
@@ -146,45 +185,32 @@ Organizations can use churn prediction models to:
 
 ---
 
-## Key Skills Demonstrated
+# Learning Outcomes
 
-- Predictive Modeling
-- Classification Modeling
-- Random Forest Algorithms
+This project demonstrates practical experience in:
+
+- Random Forest Classification
+- Predictive Analytics
+- Customer Behavior Modeling
 - Feature Engineering
-- Data Preparation
-- Hyperparameter Optimization
-- Model Evaluation
-- Customer Analytics
-- Business Intelligence
-- Python Development
+- Machine Learning Evaluation
+- Business-Oriented Data Science
 
 ---
 
-## Learning Outcomes
-
-This project demonstrates practical experience with:
-
-- Machine learning classification techniques
-- Customer behavior analytics
-- Predictive modeling workflows
-- Model performance evaluation
-- Business-oriented data science applications
-
----
-
-## Author
+# Author
 
 **Joanna Ronchi**
 
-Master of Science, Data Analytics (Data Science Specialization)
+- Master of Science in Data Science
+- Bachelor of Science in Information Technology Management
 
-GitHub: https://github.com/joannar77
+**GitHub:** https://github.com/joannar77
 
-LinkedIn: https://www.linkedin.com/in/joanna-ronchi/
+**LinkedIn:** https://www.linkedin.com/in/joanna-ronchi/
 
 ---
 
-## License
+# License
 
 This repository is provided for portfolio and educational purposes.
