@@ -6,9 +6,8 @@
 
 # 📉 Customer Churn Prediction Using Random Forest Classification
 
-## Random Forest Classification for Customer Churn Prediction
-
-A machine learning project focused on predicting customer churn in a telecommunications environment. A machine learning project focused on predicting customer churn in a telecommunications environment. The objective was to identify customers at risk of discontinuing service and develop a predictive model capable of supporting proactive customer retention strategies.
+## Predictive Analytics for Customer Retention
+A machine learning project focused on predicting customer churn in a telecommunications environment. The objective was to identify customers at risk of discontinuing service and develop a predictive model capable of supporting proactive customer retention strategies.
 
 The project applies **Random Forest Classification** to classify customers as likely to churn or remain with the company using demographic, service, billing, and account characteristics.
 
@@ -166,7 +165,7 @@ The model demonstrated:
 3. Engineer predictive features
 4. Split data into training, validation, and testing datasets
 5. Train Random Forest model
-6. Optimize Optimize Random Forest hyperparameters
+6. Optimize Random Forest hyperparameters
 7. Evaluate classification performance
 8. Generate business insights
 
